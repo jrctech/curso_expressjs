@@ -5,12 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "basic_server":"node examp_basic_server.js",
+    "basic_middlewares":"node examp_serv_middlewares.js",
+    "basic_routing":"node examp_routing_serv_ejs.js",
+    "basic_router_module":"node examp_router_module.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }
